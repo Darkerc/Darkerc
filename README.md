@@ -30,7 +30,7 @@ I'm a **backend developer** who builds the boring-but-critical parts of real pro
 - 🦀 I'm going deeper into **Rust** and **web application security (AppSec)**.
 - 🎮 After hours I make **pixel-art games with Phaser 4** and compose music for them.
 
-> Most of my professional work lives in private repositories, so the green squares below are the best public trace of it.
+> Most of my professional work lives in private repositories: on GitHub today, and on GitLab from 2020 to 2025. The GitLab commits are mirrored here as timestamps only (no code), so the green squares are the best public trace of both.
 
 ---
 
@@ -106,7 +106,7 @@ TODO: un-comment this section once the public demo repos exist (avoid 404 links)
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile/streak-dark.svg" />
-    <img src="./profile/streak.svg" alt="Contribution streak (includes private contributions)" />
+    <img src="./profile/streak.svg" alt="Contribution streak (includes private GitHub contributions and mirrored GitLab commits)" />
   </picture>
 </p>
 
