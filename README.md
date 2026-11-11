@@ -110,6 +110,13 @@ TODO: un-comment this section once the public demo repos exist (avoid 404 links)
   </picture>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/history-dark.svg" />
+    <img src="./profile/history.svg" alt="Contribution history since 2019, one cell per week, including private GitHub work and GitLab commits mirrored from 2020 to 2025" width="100%" />
+  </picture>
+</p>
+
 <!--
 TODO: add the Top languages card back once public repos reflect the real stack
 (today public repos are ~70% PHP from school projects).

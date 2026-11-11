@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - ".github/workflows/profile-cards.yml"
+      - "scripts/contribution_history.py"
 
 permissions:
   contents: write
@@ -38,6 +39,12 @@ jobs:
           options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true
           path: profile/streak-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ---------- Multi-year history (GraphQL + GITHUB_TOKEN, no PAT) ----------
+      - name: Contribution history
+        run: python3 scripts/contribution_history.py --user "${{ github.repository_owner }}" --out profile/history.svg --out-dark profile/history-dark.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit cards
         run: |
