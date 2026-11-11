@@ -31,7 +31,7 @@ jobs:
 
       # ---------- Stats ----------
       - name: Stats (light)
-        uses: stats-organization/github-readme-stats-action@v2
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=default
@@ -39,7 +39,7 @@ jobs:
           token: ${{ env.STATS_TOKEN }}
 
       - name: Stats (dark)
-        uses: stats-organization/github-readme-stats-action@v2
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight
@@ -48,14 +48,14 @@ jobs:
 
       # ---------- Streak ----------
       - name: Streak (light)
-        uses: DenverCoder1/github-readme-streak-stats@v1
+        uses: DenverCoder1/github-readme-streak-stats@125aaaf200620410446ebfa51897fca3607e04fd # v1.8.2
         with:
           options: user=${{ github.repository_owner }}&theme=default&hide_border=true
           path: profile/streak.svg
           token: ${{ env.STATS_TOKEN }}
 
       - name: Streak (dark)
-        uses: DenverCoder1/github-readme-streak-stats@v1
+        uses: DenverCoder1/github-readme-streak-stats@125aaaf200620410446ebfa51897fca3607e04fd # v1.8.2
         with:
           options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true
           path: profile/streak-dark.svg
