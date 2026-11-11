@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="782" height="232" viewBox="0 0 782 232" role="img" aria-labelledby="t d" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
 <title id="t">Contribution history since 2019</title>
-<desc id="d">Weekly contributions per year. 2019: 15 contributions; 2020: 33 contributions; 2021: 80 contributions; 2022: 560 contributions; 2023: 558 contributions; 2024: 679 contributions; 2025: 733 contributions; 2026: 549 contributions. Total 3,207.</desc>
+<desc id="d">Weekly contributions per year. 2019: 15 contributions; 2020: 33 contributions; 2021: 80 contributions; 2022: 560 contributions; 2023: 558 contributions; 2024: 679 contributions; 2025: 733 contributions; 2026: 550 contributions. Total 3,208.</desc>
 <text x="16" y="30" font-size="15" font-weight="600" fill="#e6edf3">Contribution history</text>
-<text x="16" y="49" font-size="11.5" fill="#9198a1">3,207 contributions since 2019 · one cell per week · private GitHub work + GitLab commits (2020–2025)</text>
+<text x="16" y="49" font-size="11.5" fill="#9198a1">3,208 contributions since 2019 · one cell per week · private GitHub work + GitLab commits (2020–2025)</text>
 <text x="56" y="73" font-size="10" fill="#9198a1">Jan</text>
 <text x="116" y="73" font-size="10" fill="#9198a1">Feb</text>
 <text x="164" y="73" font-size="10" fill="#9198a1">Mar</text>
@@ -447,8 +447,8 @@
 <rect x="560" y="176" width="10" height="10" rx="2" fill="#26a641"/>
 <rect x="572" y="176" width="10" height="10" rx="2" fill="#26a641"/>
 <rect x="584" y="176" width="10" height="10" rx="2" fill="#39d353"/>
-<rect x="596" y="176" width="10" height="10" rx="2" fill="#26a641"/>
-<text x="766" y="185" font-size="10.5" fill="#e6edf3" text-anchor="end">549 so far</text>
+<rect x="596" y="176" width="10" height="10" rx="2" fill="#39d353"/>
+<text x="766" y="185" font-size="10.5" fill="#e6edf3" text-anchor="end">550 so far</text>
 <text x="638" y="215" font-size="10" fill="#9198a1" text-anchor="end">Less</text>
 <rect x="644" y="206" width="10" height="10" rx="2" fill="#161b22"/>
 <rect x="656" y="206" width="10" height="10" rx="2" fill="#0e4429"/>
