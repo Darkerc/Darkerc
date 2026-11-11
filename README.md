@@ -101,16 +101,12 @@ TODO: un-comment this section once the public demo repos exist (avoid 404 links)
 
 ---
 
-## 📊 GitHub stats
+## 📈 Activity
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
-    <img src="./profile/stats.svg" alt="GitHub stats" height="170" />
-  </picture>
-  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile/streak-dark.svg" />
-    <img src="./profile/streak.svg" alt="Contribution streak" height="170" />
+    <img src="./profile/streak.svg" alt="Contribution streak (includes private contributions)" />
   </picture>
 </p>
 
