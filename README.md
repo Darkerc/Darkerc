@@ -88,14 +88,74 @@ I'm a **backend developer** who builds the boring-but-critical parts of real pro
 
 ## 🔌 Platforms I've integrated
 
-| Area | Platforms | What I did |
-|---|---|---|
-| 🛰️ **GPS telematics** | ![Wialon](https://img.shields.io/badge/Wialon-475569?style=flat-square) ![Mapon](https://img.shields.io/badge/Mapon-475569?style=flat-square) ![Webfleet](https://img.shields.io/badge/Webfleet-475569?style=flat-square) ![ProTrack](https://img.shields.io/badge/ProTrack-475569?style=flat-square) ![KPAX](https://img.shields.io/badge/KPAX-475569?style=flat-square) | Synced units, positions, geofences and drivers into one console; reports and mileage; a Rust (actix-web) gateway with token caching. |
-| 📹 **Video telematics** | ![Streamax](https://img.shields.io/badge/Streamax-475569?style=flat-square) ![Hikvision](https://img.shields.io/badge/Hikvision-475569?style=flat-square) ![JimiIoT](https://img.shields.io/badge/JimiIoT-475569?style=flat-square) | Live and recorded MDVR / camera video in the browser; alarm events relayed in real time by Node and Rust services. |
-| 🗺️ **Maps & geo** | ![Google Maps](https://img.shields.io/badge/Google%20Maps-4285F4?style=flat-square&logo=googlemaps&logoColor=white) ![OpenStreetMap (Nominatim)](https://img.shields.io/badge/OpenStreetMap%20%28Nominatim%29-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white) ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white) | Geofences, route traces and geocoding on top of PostGIS. |
-| 🧾 **ERP & e-invoicing** | ![CONTPAQi](https://img.shields.io/badge/CONTPAQi-475569?style=flat-square) | Invoice stamping and cancellation through CONTPAQi. |
-| 💬 **Messaging & automation** | ![WhatsApp Cloud API](https://img.shields.io/badge/WhatsApp%20Cloud%20API-25D366?style=flat-square&logo=whatsapp&logoColor=white) ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white) ![Firebase Cloud Messaging](https://img.shields.io/badge/Firebase%20Cloud%20Messaging-DD2C00?style=flat-square&logo=firebase&logoColor=white) | Invoices and payment receipts over WhatsApp, push notifications. |
-| 🤖 **AI APIs** | ![OpenAI](https://img.shields.io/badge/OpenAI-475569?style=flat-square) ![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square&logo=deepseek&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Voyage AI](https://img.shields.io/badge/Voyage%20AI-475569?style=flat-square) | Text-to-SQL, document OCR from photos (vision models), embeddings for RAG. |
+<table>
+  <tr>
+    <th>Area</th>
+    <th width="240">Platforms</th>
+    <th>What I did</th>
+  </tr>
+  <tr>
+    <td>🛰️ <b>GPS telematics</b></td>
+    <td>
+      <a href="https://wialon.com"><img src="assets/platforms/wialon.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Wialon</a><br>
+      <a href="https://www.mapon.com"><img src="assets/platforms/mapon.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Mapon</a><br>
+      <a href="https://www.webfleet.com"><img src="assets/platforms/webfleet.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Webfleet</a><br>
+      <a href="https://www.protrack365.com"><img src="assets/platforms/protrack.png" width="24" height="24" align="absmiddle" alt="">&nbsp;ProTrack</a>
+    </td>
+    <td>Synced units, positions, geofences and drivers into one console; reports and mileage.</td>
+  </tr>
+  <tr>
+    <td>📹 <b>Video telematics</b></td>
+    <td>
+      <a href="https://www.streamax.com"><img src="assets/platforms/streamax.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Streamax</a><br>
+      <a href="https://www.hikvision.com"><img src="assets/platforms/hikvision.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Hikvision</a><br>
+      <a href="https://www.jimiiot.com"><img src="assets/platforms/jimiiot.png" width="24" height="24" align="absmiddle" alt="">&nbsp;JimiIoT</a>
+    </td>
+    <td>Live and recorded MDVR / camera video in the browser; alarm events relayed in real time by Node and Rust services.</td>
+  </tr>
+  <tr>
+    <td>🗺️ <b>Maps &amp; geo</b></td>
+    <td>
+      <a href="https://mapsplatform.google.com"><img src="assets/platforms/google-maps.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Google&nbsp;Maps</a><br>
+      <a href="https://www.openstreetmap.org"><img src="assets/platforms/openstreetmap.png" width="24" height="24" align="absmiddle" alt="">&nbsp;OpenStreetMap</a><br>
+      <a href="https://leafletjs.com"><img src="assets/platforms/leaflet.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Leaflet</a>
+    </td>
+    <td>Geofences, route traces and geocoding (<a href="https://nominatim.org">Nominatim</a>) on top of PostGIS.</td>
+  </tr>
+  <tr>
+    <td>🖨️ <b>Print fleet monitoring</b></td>
+    <td>
+      <a href="https://www.kpax-manage.com"><img src="assets/platforms/kpax.png" width="24" height="24" align="absmiddle" alt="">&nbsp;KPAX</a>
+    </td>
+    <td>Printer status, toner levels and consumption history in the console, through a Rust (actix&#8209;web) gateway with OAuth2 token caching.</td>
+  </tr>
+  <tr>
+    <td>🧾 <b>ERP &amp; e&#8209;invoicing</b></td>
+    <td>
+      <a href="https://www.contpaqi.com"><img src="assets/platforms/contpaqi.png" width="24" height="24" align="absmiddle" alt="">&nbsp;CONTPAQi</a>
+    </td>
+    <td>Invoice stamping and cancellation through CONTPAQi.</td>
+  </tr>
+  <tr>
+    <td>💬 <b>Messaging &amp; automation</b></td>
+    <td>
+      <a href="https://developers.facebook.com/documentation/business-messaging/whatsapp/about-the-platform"><img src="assets/platforms/whatsapp.png" width="24" height="24" align="absmiddle" alt="">&nbsp;WhatsApp&nbsp;Cloud&nbsp;API</a><br>
+      <a href="https://n8n.io"><img src="assets/platforms/n8n.png" width="24" height="24" align="absmiddle" alt="">&nbsp;n8n</a><br>
+      <a href="https://firebase.google.com/docs/cloud-messaging"><img src="assets/platforms/firebase.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Firebase&nbsp;Cloud&nbsp;Messaging</a>
+    </td>
+    <td>Invoices and payment receipts over WhatsApp, push notifications.</td>
+  </tr>
+  <tr>
+    <td>🤖 <b>AI APIs</b></td>
+    <td>
+      <a href="https://openai.com/api/"><img src="assets/platforms/openai.png" width="24" height="24" align="absmiddle" alt="">&nbsp;OpenAI</a><br>
+      <a href="https://api-docs.deepseek.com"><img src="assets/platforms/deepseek.png" width="24" height="24" align="absmiddle" alt="">&nbsp;DeepSeek</a><br>
+      <a href="https://ai.google.dev/gemini-api"><img src="assets/platforms/gemini.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Gemini</a><br>
+      <a href="https://www.voyageai.com"><img src="assets/platforms/voyage-ai.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Voyage&nbsp;AI</a>
+    </td>
+    <td>Text-to-SQL, document OCR from photos (vision models), embeddings for RAG.</td>
+  </tr>
+</table>
 
 <!--
 TODO: un-comment this section once the public demo repos exist (avoid 404 links).
