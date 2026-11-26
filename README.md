@@ -1,78 +1,17 @@
-<!-- ================= HEADER ================= -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Eder%20Reyes%20Castellanos&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Backend%20Developer%20%E2%80%A2%20Python%20%C2%B7%20Rust%20%C2%B7%20Geospatial%20%C2%B7%20LLMs&descAlignY=58&descSize=16" alt="Eder Reyes Castellanos — Backend Developer" width="100%" />
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+  <img src="./assets/header-light.svg" width="100%" alt="Eder Reyes Castellanos, backend developer in Villahermosa, Tabasco. A GPS track drives into the city over a map of its rivers and lagoons." />
+</picture>
 </p>
 
-<p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=640&lines=Backend+Developer+%F0%9F%90%8D;Python+%C2%B7+Django+%C2%B7+FastAPI;Rust+enthusiast+%F0%9F%A6%80;GPS+%26+geospatial+systems+(PostGIS)+%F0%9F%9B%B0%EF%B8%8F;LLM+pipelines+%26+Text-to-SQL+%F0%9F%A4%96;Game+dev+hobbyist+(Phaser+4)+%F0%9F%8E%AE" />
-      <img alt="Backend Developer · Python · Django · FastAPI · Rust · PostGIS · LLMs · Phaser 4" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0969DA&center=true&vCenter=true&width=640&lines=Backend+Developer+%F0%9F%90%8D;Python+%C2%B7+Django+%C2%B7+FastAPI;Rust+enthusiast+%F0%9F%A6%80;GPS+%26+geospatial+systems+(PostGIS)+%F0%9F%9B%B0%EF%B8%8F;LLM+pipelines+%26+Text-to-SQL+%F0%9F%A4%96;Game+dev+hobbyist+(Phaser+4)+%F0%9F%8E%AE" />
-    </picture>
-  </a>
-</p>
+I build the backend side of GPS fleet tracking: services that pull telemetry from vendor platforms, store it in PostgreSQL + PostGIS, and turn it into routes, reports and regulatory feeds. Mostly Python (Django, FastAPI), and Rust where it has to be fast.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/📍%20Villahermosa,%20Tabasco,%20MX-1f2937?style=flat-square" alt="Location: Villahermosa, Tabasco, MX" />
-  <img src="https://img.shields.io/badge/Focus-Backend%20%26%20Geospatial-0ea5e9?style=flat-square" alt="Focus: Backend and Geospatial" />
-  <img src="https://img.shields.io/badge/Open%20to-Freelance%20%26%20Collaboration-22c55e?style=flat-square" alt="Open to freelance and collaboration" />
-</p>
+I also build LLM tooling, like a Text-to-SQL pipeline over a RAG system whose database roles only let the model read what it should. After hours I make pixel-art games in Phaser 4 and compose their music.
 
----
+Open to freelance work and collaborations: [ederastonmartin@hotmail.com](mailto:ederastonmartin@hotmail.com)
 
-## 👋 About me
-
-I'm a **backend developer** who builds the boring-but-critical parts of real products: data pipelines, APIs and services that have to run 24/7.
-
-- 🛰️ Day to day I work on **GPS vehicle-tracking platforms**: ingesting telemetry, storing and querying it with **PostgreSQL + PostGIS**, and exposing it through **Django** and **FastAPI** services.
-- 📑 I automate **regulatory and billing workflows**: invoicing, volumetric controls and compliance reporting.
-- 🤖 I build **LLM-powered tooling**, like a Text-to-SQL pipeline on top of a RAG system with **LangGraph**, with the database hardened so models only see what they should.
-- 🦀 I'm going deeper into **Rust** and **web application security (AppSec)**.
-- 🎮 After hours I make **pixel-art games with Phaser 4** and compose music for them.
-
-> Most of my professional work lives in private repositories: on GitHub today, and on GitLab from 2020 to 2025. The GitLab commits are mirrored here as timestamps only (no code), so the green squares are the best public trace of both.
-
----
-
-## 🛠️ Tech stack
-
-**Core**
-
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,django,fastapi,rust,js,postgres,redis,docker,linux,gcp&perline=10" alt="Python, Django, FastAPI, Rust, JavaScript, PostgreSQL, Redis, Docker, Linux, Google Cloud" />
-  </a>
-</p>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/PostGIS-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostGIS" />
-  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" />
-  <img src="https://img.shields.io/badge/OpenAI%20%2F%20DeepSeek%20APIs-412991?style=for-the-badge" alt="OpenAI / DeepSeek APIs" />
-  <img src="https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=centos&logoColor=white" alt="CentOS" />
-</p>
-
-**Also comfortable with**
-
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=vue,nuxtjs,nodejs,php,html,css,git,githubactions,bash,postman&perline=10" alt="Vue, Nuxt, Node.js, PHP, HTML, CSS, Git, GitHub Actions, Bash, Postman" />
-  </a>
-</p>
-
-**Exploring / for fun**
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Phaser%204-8B5CF6?style=for-the-badge&logoColor=white" alt="Phaser 4" />
-  <img src="https://img.shields.io/badge/Pixel%20Art-F59E0B?style=for-the-badge" alt="Pixel art" />
-  <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" />
-  <img src="https://img.shields.io/badge/AppSec-DC2626?style=for-the-badge" alt="AppSec" />
-  <img src="https://img.shields.io/badge/Game%20Music-EC4899?style=for-the-badge" alt="Game music" />
-</p>
-
----
-
-## 🧩 What I build
+## What I build
 
 | Area | What it looks like in practice |
 |---|---|
@@ -84,9 +23,7 @@ I'm a **backend developer** who builds the boring-but-critical parts of real pro
 
 <sub>Details are kept generic on purpose. Happy to walk through architecture and trade-offs in a call.</sub>
 
----
-
-## 🔌 Platforms I've integrated
+## Platforms I've integrated
 
 <table>
   <tr>
@@ -172,9 +109,53 @@ TODO: un-comment this section once the public demo repos exist (avoid 404 links)
 | [Nuxt_MEVN_Scaffolding](https://github.com/Darkerc/Nuxt_MEVN_Scaffolding) | Nuxt · Express · MongoDB | Early full-stack MEVN scaffolding (archived learning project). |
 -->
 
----
+## Tech stack
 
-## 📈 Activity
+<table>
+  <tr>
+    <td><b>Core</b></td>
+    <td nowrap>
+      <a href="https://www.python.org"><img src="assets/stack/python.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Python</a>&emsp;
+      <a href="https://www.rust-lang.org"><img src="assets/stack/rust.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Rust</a>&emsp;
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="assets/stack/javascript.png" width="24" height="24" align="absmiddle" alt="">&nbsp;JavaScript</a><br>
+      <a href="https://www.djangoproject.com"><img src="assets/stack/django.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Django</a>&emsp;
+      <a href="https://fastapi.tiangolo.com"><img src="assets/stack/fastapi.png" width="24" height="24" align="absmiddle" alt="">&nbsp;FastAPI</a>&emsp;
+      <a href="https://www.sqlalchemy.org"><img src="assets/stack/sqlalchemy.png" width="24" height="24" align="absmiddle" alt="">&nbsp;SQLAlchemy</a>&emsp;
+      <a href="https://www.langchain.com/langgraph"><img src="assets/stack/langgraph.png" width="24" height="24" align="absmiddle" alt="">&nbsp;LangGraph</a><br>
+      <a href="https://www.postgresql.org"><img src="assets/stack/postgresql.png" width="24" height="24" align="absmiddle" alt="">&nbsp;PostgreSQL</a>&emsp;
+      <a href="https://postgis.net"><img src="assets/stack/postgis.png" width="24" height="24" align="absmiddle" alt="">&nbsp;PostGIS</a>&emsp;
+      <a href="https://redis.io"><img src="assets/stack/redis.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Redis</a><br>
+      <a href="https://www.docker.com"><img src="assets/stack/docker.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Docker</a>&emsp;
+      <a href="https://www.kernel.org"><img src="assets/stack/linux.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Linux</a>&emsp;
+      <a href="https://www.centos.org"><img src="assets/stack/centos.png" width="24" height="24" align="absmiddle" alt="">&nbsp;CentOS</a>&emsp;
+      <a href="https://cloud.google.com"><img src="assets/stack/google-cloud.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Google&nbsp;Cloud</a>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Also comfortable with</b></td>
+    <td nowrap>
+      <a href="https://vuejs.org"><img src="assets/stack/vue.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Vue</a>&emsp;
+      <a href="https://nuxt.com"><img src="assets/stack/nuxt.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Nuxt</a>&emsp;
+      <a href="https://nodejs.org"><img src="assets/stack/nodejs.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Node.js</a><br>
+      <a href="https://www.php.net"><img src="assets/stack/php.png" width="24" height="24" align="absmiddle" alt="">&nbsp;PHP</a>&emsp;
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="assets/stack/html.png" width="24" height="24" align="absmiddle" alt="">&nbsp;HTML</a>&emsp;
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="assets/stack/css.png" width="24" height="24" align="absmiddle" alt="">&nbsp;CSS</a><br>
+      <a href="https://git-scm.com"><img src="assets/stack/git.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Git</a>&emsp;
+      <a href="https://github.com/features/actions"><img src="assets/stack/github-actions.png" width="24" height="24" align="absmiddle" alt="">&nbsp;GitHub&nbsp;Actions</a>&emsp;
+      <a href="https://www.gnu.org/software/bash/"><img src="assets/stack/bash.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Bash</a>&emsp;
+      <a href="https://www.postman.com"><img src="assets/stack/postman.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Postman</a>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Exploring</b></td>
+    <td nowrap>
+      <a href="https://phaser.io"><img src="assets/stack/phaser.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Phaser&nbsp;4</a>&emsp;
+      <a href="https://portswigger.net/burp"><img src="assets/stack/burp-suite.png" width="24" height="24" align="absmiddle" alt="">&nbsp;Burp&nbsp;Suite</a>
+    </td>
+  </tr>
+</table>
+
+## Activity
 
 <p align="center">
   <picture>
@@ -183,12 +164,12 @@ TODO: un-comment this section once the public demo repos exist (avoid 404 links)
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/history-dark.svg" />
-    <img src="./profile/history.svg" alt="Contribution history since 2019, one cell per week, including private GitHub work and GitLab commits mirrored from 2020 to 2025" width="100%" />
-  </picture>
-</p>
+Most of my professional work lives in private repositories: on GitHub today, and on GitLab from 2020 to 2025. The GitLab commits are mirrored here as timestamps only (no code), so this chart is the best public trace of both.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/history-dark.svg" />
+  <img src="./profile/history.svg" alt="Contribution history since 2019, one cell per week, including private GitHub work and GitLab commits mirrored from 2020 to 2025" width="100%" />
+</picture>
 
 <!--
 TODO: add the Top languages card back once public repos reflect the real stack
@@ -199,33 +180,8 @@ TODO: add the Top languages card back once public repos reflect the real stack
 </picture>
 -->
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Darkerc/Darkerc/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Darkerc/Darkerc/output/github-snake.svg" />
-    <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Darkerc/Darkerc/output/github-snake.svg" />
-  </picture>
-</p>
+## Now
 
----
-
-## 🔭 Currently
-
-- 🦀 **Learning:** Rust (async, systems tooling) and web security, working toward **Burp Suite Certified Practitioner**
-- 🎮 **Building:** a pixel-art game in **Phaser 4** (character skins, state management)
-- 🎵 **Composing:** music and SFX for my games
-- 🔐 **Tinkering:** hardware security with Flipper Zero
-- 🤝 **Open to:** backend / geospatial / LLM-tooling collaborations
-
----
-
-## 📫 Let's connect
-
-<p align="center">
-  <a href="mailto:ederastonmartin@hotmail.com"><img src="https://img.shields.io/badge/📫%20Email-ederastonmartin%40hotmail.com-0078D4?style=for-the-badge" alt="Email: ederastonmartin@hotmail.com" /></a>
-</p>
-
-<!-- ================= FOOTER ================= -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer&animation=twinkling" alt="" width="100%" />
-</p>
+- **Learning:** Rust (async, systems tooling) and web security, working toward Burp Suite Certified Practitioner.
+- **Building:** a pixel-art game in Phaser 4 (character skins, state management), with my own music and SFX.
+- **Tinkering:** hardware security with a Flipper Zero.
